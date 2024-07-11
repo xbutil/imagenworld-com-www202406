@@ -15,33 +15,17 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/recaptcha.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=XcntSx"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=XcntSx" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ovPbwW"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ovPbwW" type="text/css">
 
   
   
   
-
-<meta name="theme-color" content="#ffcc01">
-<link rel="manifest" href="manifest.json">
-<script src="sw-connect.js"></script>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
-<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
-<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
-<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
-<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
-<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
-<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Imagen World">
-<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
+</head>
 <body>
   
   <section data-bs-version="5.1" class="menu menu1 cid-u153WB1qPE" once="menu" id="menu01-8">
@@ -100,7 +84,7 @@
                 <div class="text-wrapper align-left">
                     <h1 class="mbr-section-title align-left mbr-fonts-style mb-4 display-2">Garantía directa con el fabricante</h1>
                     <p class="mbr-text align-left mbr-fonts-style display-7">Llame directamente al representante de la marca o mayorista del producto para obtener su garantía presentando su factura y/o manifiesto de importación.<br></p>
-                    <div class="mbr-section-btn mt-4"><a class="btn btn-primary display-7" href="#" data-toggle="modal" data-bs-toggle="modal" data-target="#mbr-popup-p" data-bs-target="#mbr-popup-p"><span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn"></span>Recomendaciones para el trámite</a></div>
+                    <div class="mbr-section-btn mt-4"><a class="btn btn-primary display-7" href="popup:#mbr-popup-p" data-toggle="modal" data-bs-toggle="modal" data-target="#mbr-popup-p" data-bs-target="#mbr-popup-p"><span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn"></span>Recomendaciones para el trámite</a></div>
                 </div>
             </div>
 
@@ -108,8 +92,15 @@
     </div>
 </section>
 
-<div class="modal mbr-popup cid-ue5PquhQxg fade" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="mbr-popup-p" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<section class="popup-builder cid-ue5PquhQxg" id="mbr-popup-p">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(0, 0, 0); inset: 0px; z-index: 0;">
+    </div>
+
+    <div class="modal mbr-popup" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="container position-static margin-center-pos">
                     <div class="modal-header pb-0">
@@ -138,6 +129,8 @@
             </div>
         </div>
     </div>
+
+</section>
 
 <section data-bs-version="5.1" class="features3 cid-u155CrMDiz" id="features17-n">
     
@@ -384,14 +377,11 @@
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
-      <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/popup-plugin/script.js"></script>
-  <script src="assets/popup-overlay-plugin/script.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid.min.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
   
   
   
-
 </body>
 </html>
