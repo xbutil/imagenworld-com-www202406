@@ -1044,6 +1044,11 @@ body {
 a {
   transition: color 0.6s;
 }
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
 .cid-sHbPYXhQhD .navbar-dropdown {
   position: relative !important;
 }
@@ -1400,6 +1405,20 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-v0Zm7VGQad {
+  background-image: url("../../../assets/images/mbr-1920x974.png");
+}
+.cid-v0Zm7VGQad H1 {
+  color: #000000;
+}
+.cid-v0Zm7VGQad H3 {
+  color: #000000;
+}
+.cid-v0Zm7VGQad .mbr-text,
+.cid-v0Zm7VGQad .mbr-section-btn {
+  color: #000000;
+  text-align: center;
 }
 .cid-tU4PL6dKXn {
   padding-top: 7rem;
