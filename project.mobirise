@@ -71,7 +71,8 @@
     "versionPublish": "6.1.4",
     "screenshot": "screenshot.png",
     "cssOptimize": false,
-    "lazyLoad": false
+    "lazyLoad": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
